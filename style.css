@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Luckiest Guy';
+    src: url(/fonts/luckiest-guy.ttf);
+}
+
+body {
+    font-family: 'Luckiest Guy', Arial, Helvetica, sans-serif;
+}
