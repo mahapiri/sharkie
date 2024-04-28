@@ -1,5 +1,11 @@
+let canvas;
+let world;
+
+/**
+ * Initials the game
+ * 
+ */
 function init() {
-    let canvas = document.getElementById('canvas');
-    let ctx = canvas.getContext('2d');
-    ctx.fillRect(20, 20, 150, 100);
+    canvas = document.getElementById('canvas');
+    world = new World(canvas);
 }
